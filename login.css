@@ -1,0 +1,82 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-image: url("back.jpg");
+    background-size:cover;
+}
+
+.login{
+    
+    display:flex;
+    margin-top:-20px;
+    border:none;
+    border-radius:16%;
+    width:120px;
+    height:30px;
+    justify-content:center;
+}
+.container{
+    background-color:darkslategrey;
+    display:grid;
+    justify-items:center;
+    border:solid aqua;
+    height:300px;
+    width:300px;
+    align-items:center;
+    border-radius:20%;
+    
+}
+.sign-container{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+    margin-top:-50px;
+    
+}
+.enter{
+    display:grid;
+    margin-top:-100px;
+}
+.signin{
+    margin-left:-100px;
+}
+.register{
+    margin-right:-100px;
+}
+label{
+    color:white;
+}
+input{
+background-color:aqua;
+width: 90%;
+padding: 10px;
+font-size: 16px;
+border: 2px solid #6a5acd; 
+border-radius: 8px; 
+outline: none;
+transition: 0.3s
+}
+button{
+    background: linear-gradient(45deg, #4a90e2, #0057b7);
+color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+   
+
+}
+button:hover {
+    background: linear-gradient(45deg, #0057b7, #4a90e2); 
+    transform: scale(1.07);
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  h2{
+    margin-top:7px;
+  }

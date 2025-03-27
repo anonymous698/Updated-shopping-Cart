@@ -1,0 +1,56 @@
+body{
+    background-color:cadetblue;
+    background-image: url("sh.jpg");
+    background-size:cover;
+    background-attachment:scroll;
+    display:inline;
+    
+}
+.refresh:hover{
+    transform:scale(1.1);
+}
+.refresh:active{
+    cursor:progress;
+}
+.nav{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:black;
+    height:50px;
+    align-items:center;
+}
+label{
+    color:red;
+}
+.search{
+    border-color:blue;
+    background-color:blanchedalmond;
+    
+}
+.click{
+    background-color:aqua;
+    border-radius: 15%;
+
+}
+.click:hover{
+    color:red;
+    background-color: aquamarine;
+    cursor:pointer;
+    transform:scale(1.1)
+    
+}
+.click:active{
+    cursor:progress;
+}
+select:hover{
+transform:scale(1.1);
+cursor:pointer;
+}
+.items{
+    display:flex;
+    justify-content:space-evenly;
+}
+.price{
+    color:purple;
+    background-color:aquamarine;
+}
