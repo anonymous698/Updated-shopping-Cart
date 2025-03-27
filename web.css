@@ -12,6 +12,9 @@ body{
 .refresh:active{
     cursor:progress;
 }
+.refresh{
+    border-radius:50%;
+}
 .nav{
     display:flex;
     justify-content: space-evenly;
@@ -23,22 +26,20 @@ label{
     color:red;
 }
 .search{
-    border-color:blue;
-    background-color:blanchedalmond;
+    width: 60%;
+padding: 4px;
+font-size: 10px;
+border: 2px solid #6a5acd; 
+border-radius: 8px; 
+outline: none;
+transition: 0.3s
     
 }
-.click{
-    background-color:aqua;
-    border-radius: 15%;
+.search:hover, .search:active{
+    transform:scale(1.07);
+}
 
-}
-.click:hover{
-    color:red;
-    background-color: aquamarine;
-    cursor:pointer;
-    transform:scale(1.1)
-    
-}
+
 .click:active{
     cursor:progress;
 }
@@ -51,6 +52,31 @@ cursor:pointer;
     justify-content:space-evenly;
 }
 .price{
+    
     color:purple;
     background-color:aquamarine;
+}
+.click{
+    background: linear-gradient(45deg, #6e7058, #c0cf40);
+    color: white;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 2px 3px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+       
+}
+.click:hover{
+    background: linear-gradient(45deg, #c0cf40, #6e7058); 
+    transform: scale(1.07);
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
+}
+select{
+    border-radius:8px;
+    padding:2px 3px;
+    border:none;
+    width:80px;
 }
