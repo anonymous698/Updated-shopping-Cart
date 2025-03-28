@@ -15,13 +15,20 @@ body{
 .refresh{
     border-radius:50%;
 }
-.nav{
-    display:flex;
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    display: flex;
     justify-content: space-evenly;
-    background-color:black;
-    height:50px;
-    align-items:center;
+    align-items: center;
+    z-index: 1000;
 }
+
+
 label{
     color:red;
 }
