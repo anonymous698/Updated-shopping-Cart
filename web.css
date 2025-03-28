@@ -33,23 +33,23 @@ label{
     color:red;
 }
 .search{
-    width: 60%;
+width: 60%;
 padding: 4px;
 font-size: 10px;
 border: 2px solid #6a5acd; 
 border-radius: 8px; 
 outline: none;
-transition: 0.3s
+transition: 0.3s;
+height:20.3px;
+
     
 }
-.search:hover, .search:active{
-    transform:scale(1.07);
-}
 
 
-.click:active{
-    cursor:progress;
-}
+
+/* .click:active{
+    cursor:progress; */
+/* } */
 select:hover{
 transform:scale(1.1);
 cursor:pointer;
@@ -63,7 +63,7 @@ cursor:pointer;
     color:purple;
     background-color:aquamarine;
 }
-.click{
+/* .click{
     background: linear-gradient(45deg, #6e7058, #c0cf40);
     color: white;
       font-size: 14px;
@@ -80,10 +80,28 @@ cursor:pointer;
     background: linear-gradient(45deg, #c0cf40, #6e7058); 
     transform: scale(1.07);
     box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
-}
+} */
 select{
     border-radius:8px;
     padding:2px 3px;
     border:none;
     width:80px;
+}
+.mohan{
+    width:350px;
+}
+#bibi{
+    color:black;
+    margin-bottom:-10px;
+    background-color:white;
+    border-radius:30%;
+    margin-left:-33px;
+    border: none;
+    cursor:pointer;
+    
+    
+    
+}
+#bibi:hover{
+    transform:scale(1.02)
 }
