@@ -103,5 +103,6 @@ select{
     
 }
 #bibi:hover{
+    color:blue;
     transform:scale(1.02)
 }
