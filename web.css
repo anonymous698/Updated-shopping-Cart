@@ -1,6 +1,8 @@
 body{
-    background-color:cadetblue;
-    background-image: url("sh.jpg");
+    box-sizing: border-box;
+
+    background-color:rgb(207, 204, 204);
+    
     background-size:cover;
     background-attachment:scroll;
     display:inline;
@@ -20,7 +22,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: black;
+    background-color: rgb(56, 54, 54);
     height: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -51,18 +53,10 @@ height:20.3px;
     cursor:progress; */
 /* } */
 select:hover{
-transform:scale(1.1);
+
 cursor:pointer;
 }
-.items{
-    display:flex;
-    justify-content:space-evenly;
-}
-.price{
-    
-    color:purple;
-    background-color:aquamarine;
-}
+
 /* .click{
     background: linear-gradient(45deg, #6e7058, #c0cf40);
     color: white;
@@ -82,16 +76,20 @@ cursor:pointer;
     box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
 } */
 select{
+    color:white;
     border-radius:8px;
     padding:2px 3px;
     border:none;
     width:80px;
+    background:none;
+    
 }
 .mohan{
     width:350px;
 }
 #bibi{
     color:black;
+    width:18px;
     margin-bottom:-10px;
     background-color:white;
     border-radius:30%;
@@ -105,4 +103,61 @@ select{
 #bibi:hover{
     color:blue;
     transform:scale(1.02)
+}
+.nav2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:1px solid black;
+    width:1440px;
+    display:flex;
+    background-color:pink;
+    height:45px;
+    
+
+}
+.cont-nav2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.fa-xmark{
+    font-size:20px;
+    position:relative;
+    left:500px;
+}
+.items-container{
+    width:1700px;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    position:relative;
+    left:160px;
+    gap:20px;
+    
+}
+.item{
+    background-color:white;
+    display:grid;
+    height:300px;
+    justify-content: center;
+    align-items:center;
+    width:300px;
+    border-radius:10px;
+    
+
+}
+.item img{
+    height:200px;
+    width:200px;
+}
+.item p,.item h4 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.nav2 i:hover{
+    border:1px solid rgb(87, 85, 85);
+    cursor:pointer;
+    transform:scale(0.9);
 }
