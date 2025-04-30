@@ -16,7 +16,7 @@
         <div class="gender">
             <label><i>Gender :</i> </label>
             <select name="gender">
-                
+                <option value="">Genders</option>
                 <option  value="male">Male</option>
                 <option  value="female">Female</option>
                 
@@ -26,6 +26,7 @@
         <div class="products">
         <label><i>Products :</i></Products></label>
         <select name="products">
+            <option value="">Products</option>
             <option value="shirt">Shirt</option>
             <option value="T-shirt">T-Shirt</option>
             <option value="pants">Pants</option>
@@ -53,42 +54,43 @@
     </div>
     <br><br><br>
     <div class="items-container">
-        <div class="item">
+        <div class="item" data-gender="male" data-product="cap">
             <h4>Red Cap</h4>
             <img src="cap1.jpg">
             <p>Price: 300</p>
         </div>
-        <div class="item">
+        <div class="item" data-gender="female" data-product="heels">
             <h4>Elegant Heels</h4>
             <img src="heel1.jpg">
             <p>Price: 500</p>
         </div>
-        <div class="item">
+        <div class="item" data-gender="female" data-product="pants">
             <h4>Jeans</h4>
             <img src="jeans1.jpg">
             <p>Price: 1000</p>
         </div>
-        <div class="item">
+        <div class="item" data-gender="female" data-product="pants">
             <h4>Jeans</h4>
             <img src="jeans2.jpg">
             <p>Price: 5000</p>
         </div>
-        <div class="item">
+        <div class="item" data-gender="male" data-product="pants">
             <h4>Jeans</h4>
             <img src="jeans3.jpg">
             <p>Price: 3000</p>
         </div>
-        <div class="item">
+        <div class="item" data-gender="male" data-product="shirt">
             <h4>Shirt</h4>
             <img src="shirt1.jpg">
             <p>Price: 2000</p>
         </div>
-        <div class="item">
+        <div class="item" data-gender="male" data-product="T-shirt">
             <h4>T-Shirt</h4>
             <img src="T-shirt1.jpg">
             <p>Price: 700</p>
         </div>
     </div>
-    
+
+    <script src="web.js"></script>
 </body>
 </html>
